@@ -1,0 +1,62 @@
+{
+  "createdAtUtc": "2026-09-13T20:14:38.9580164Z",
+  "source": "https://twice.fun/",
+  "scope": "Public HTTP reads and static frontend analysis; no monitor started",
+  "files": [
+    {
+      "file": "ANALISE.md",
+      "bytes": 7642,
+      "sha256": "BCF8FA284155E75F89F69C3B26702BE08B77D3D4817B633DA9F41B0B4F7570D0"
+    },
+    {
+      "file": "api-auth-session.json",
+      "bytes": 55,
+      "sha256": "B6DAF4E11F08A478B9B242F4B3BE7F0C9DCC15D727CBAF9078B60BAB375827B7"
+    },
+    {
+      "file": "api-config.json",
+      "bytes": 1432,
+      "sha256": "D214449122B5AB4D72C50E3F54713C1FA0B3403924B0D893FF0FF9677F91019D"
+    },
+    {
+      "file": "api-deployment.json",
+      "bytes": 99,
+      "sha256": "F4C9757EF11F556A296087090C246F3D42F8AA9056DA2130CB3F98032870DF8F"
+    },
+    {
+      "file": "api-launches.json",
+      "bytes": 64,
+      "sha256": "9A539E5238C92B80821680A4054D6B322A83352D62F43D203FF08B040D14B04C"
+    },
+    {
+      "file": "app.js",
+      "bytes": 15869,
+      "sha256": "4EDBE6BB88A9CEBB3A76FCB2FD2234409FE65FDFC0BE39F9A795A8D0DC4E83A6"
+    },
+    {
+      "file": "connection-flow.js",
+      "bytes": 285196,
+      "sha256": "EC33A19819FEFCAAA80C3C5E8F0CD3AB3DE6DF646F2806712B5CDD18DD122CBA"
+    },
+    {
+      "file": "deploy-design.js",
+      "bytes": 10368,
+      "sha256": "C8F8D5BA6FEABFA0AB38AF5B0F264DB0C8470FC827805583D15C19A4E3E11BB0"
+    },
+    {
+      "file": "index.html",
+      "bytes": 12418,
+      "sha256": "2F24BAB1882BB1CAAE2A371F9D5092FFE4DE3A00D254259A7B49C37012C05711"
+    },
+    {
+      "file": "launch-client.js",
+      "bytes": 400912,
+      "sha256": "B0EEFEC0ABF6613D31FD8E4898C2AC12ACEB8C09C943EA81AC05C04E5C49112B"
+    },
+    {
+      "file": "scene.js",
+      "bytes": 7573,
+      "sha256": "A356906EA7E1F5634A1851AC8369EA093C32939B62302BD36C5936AD26368A88"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5fbfa">
+<title>twice.fun: launch once. live twice.</title>
+<meta name="description" content="Launch on Pons and create a PumpSwap pool with automatic liquidity and market-making allocations.">
+<link rel="icon" type="image/png" href="/assets/mascot.png?v=2"><link rel="preload" href="/assets/sans.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/polish.css"><link rel="stylesheet" href="/identity.css"><link rel="stylesheet" href="/launch.css"><link rel="stylesheet" href="/deploy-design.css?v=1"><link rel="stylesheet" href="/connection-flow.css?v=1"><link rel="stylesheet" href="/guided-flow.css?v=1">
+</head>
+<body>
+<a class="skip-link" href="#explore">Skip to launches</a>
+<header class="topbar"><nav class="wrap nav" aria-label="Main navigation">
+<a class="brand" href="#top" aria-label="twice.fun home"><img src="/assets/mascot.png?v=2" width="42" height="42" alt=""><span>twice.fun</span></a>
+<div class="nav-center" id="main-nav"><a href="#explore">Explore</a><a href="#my-launches" data-action="my-launches">My launches</a><a href="#how-it-works">How it works</a><a href="#questions">Good questions</a></div>
+<div class="nav-right"><div class="nav-chains" aria-label="Solana and Robinhood Chain"><img src="/assets/solana.svg" alt="Solana"><span>+</span><img src="/assets/robinhood.svg" alt="Robinhood Chain"></div><button class="btn" data-action="wallet"><span class="icon" data-icon="wallet"></span><span>Connect wallet</span></button><button class="icon-button menu-toggle" data-action="menu" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span class="icon" data-icon="menu"></span></button></div>
+</nav></header>
+<main id="top">
+<section class="hero" aria-labelledby="hero-heading"><div class="hero-glow" aria-hidden="true"></div><div class="wrap hero-inner">
+<div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span>NO CA LIVE YET</p>
+<h1 id="hero-heading">launch once.<br><span class="text-accent">live twice.</span></h1>
+<p class="hero-description">Your token, on Solana <span class="text-accent">and</span> Robinhood Chain.<br> Two communities. One shared market-cap target.</p>
+<div class="hero-actions"><button class="btn btn-primary btn-lg" data-action="create">Launch on both <span class="icon" data-icon="upRight"></span></button><a class="text-button" href="#explore">Meet the doubles <span class="icon" data-icon="arrow"></span></a></div>
+<p class="hero-footnote"><span class="icon" data-icon="link"></span> Funding plans open · deposits & trading coming later.</p>
+</div>
+<div class="hero-universe" aria-label="The twice.fun mascot with Solana and Robinhood Chain orbiting around it">
+<div id="hero-scene" class="hero-scene"><img class="scene-fallback" src="/assets/mascot.png?v=2" alt="Blue and green twice.fun mascot" width="520" height="520"></div>
+<div class="universe-caption"><span class="orbit-status">IN GOOD COMPANY</span><span class="small-caption">a little better, together.</span></div>
+<div class="hero-cap-dock">
+<div class="cap-card cap-sol"><div class="cap-chain"><img src="/assets/solana.svg" alt="">Solana</div><strong data-cap-label>$69,420</strong><span>Market-cap target</span></div>
+<div class="dock-link" aria-hidden="true"><span class="icon" data-icon="link"></span></div>
+<div class="cap-card cap-rh"><div class="cap-chain"><img src="/assets/robinhood.svg" alt="">Robinhood Chain</div><strong data-cap-label>$69,420</strong><span>Market-cap target</span></div>
+</div>
+<button class="motion-control" id="motion-toggle" aria-pressed="false" aria-label="Pause orbit animation"><span class="icon" data-icon="pause"></span></button>
+<div class="shared-cap"><span class="icon" data-icon="link"></span> one shared target <span class="cap-note">/ concept preview</span></div>
+</div>
+</div></section>
+<div class="ribbon"><div class="wrap ribbon-inner"><span><span class="icon" data-icon="spark"></span>One creation</span><i></i><span><img src="/assets/solana.svg" alt="">Solana</span><span class="ribbon-plus">+</span><span><img src="/assets/robinhood.svg" alt="">Robinhood Chain</span><i></i><span><span class="icon" data-icon="link"></span>Shared market-cap target</span><span class="ribbon-end">GOOD THINGS COME IN TWOS.</span></div></div>
+<section class="explore wrap" id="explore" aria-labelledby="explore-heading">
+<div class="section-head board-intro"><div><p class="section-eyebrow">THE DOUBLE TAKE</p><h2 id="explore-heading">Meet your<br><span class="text-accent">next double.</span></h2></div><div class="board-intro-note"><span class="preview-stamp">TOKEN LAUNCHES <span>/ TWO CHAINS</span></span><p>Create your token.<br> Fund both markets.</p></div></div>
+<div class="explore-toolbar"><div class="filter-group" aria-label="Filter launches"><button class="filter active" data-filter="all" aria-pressed="true">All launches</button><button class="filter" data-filter="new" aria-pressed="false">Fresh faces</button><button class="filter" data-filter="saved" aria-pressed="false"><span class="icon" data-icon="heart"></span>Saved</button></div><label class="search"><span class="icon" data-icon="search"></span><input id="market-search" type="search" placeholder="Find your double…" aria-label="Search launches"><kbd aria-hidden="true">/</kbd></label></div>
+<div class="launch-board-shell"><div class="board-columns" aria-hidden="true"><span class="board-token-heading">THE TOKEN</span><span><img src="/assets/solana.svg" alt="">Solana target</span><span><img src="/assets/robinhood.svg" alt="">Robinhood Chain target</span><span></span></div><div class="launch-board" id="markets" aria-live="polite"></div></div>
+<div class="market-footer"><p id="market-count"></p><button class="text-button" data-action="create">Your idea belongs here <span class="icon" data-icon="plus"></span></button></div>
+</section>
+<section class="how-section" id="how-it-works"><div class="wrap how-grid"><div class="how-copy"><p class="section-eyebrow">TWICE, WITHOUT THE DOUBLE WORK</p><h2>One start.<br><span class="text-accent">Both sides.</span></h2><p>Give your idea one identity and a home on two chains. Set it up together, right from the beginning.</p><button class="btn" data-action="create">Give it a go <span class="icon" data-icon="upRight"></span></button></div><div class="steps">
+<div class="step"><span class="step-number">01</span><div><h3>Bring your one good idea.</h3><p>A name, a ticker, and something worth sharing. Your token gets the same identity on both networks.</p></div></div>
+<div class="step"><span class="step-number">02</span><div><h3>Give it two places to belong.</h3><p>Connect your Solana and Robinhood wallets. Review the $800 capital allocation and separate fees, then fund each chain from your wallet.</p></div></div>
+<div class="step"><span class="step-number">03</span><div><h3>Take a look at both sides.</h3><p>Approve the Pons launch in your wallet. Twice then creates the matching PumpSwap pool and starts the funded market maker.</p></div></div>
+</div></div></section>
+<section class="peg-section wrap" aria-labelledby="peg-heading"><div class="peg-visual"><div class="peg-chain"><div class="network-icon"><img src="/assets/solana.svg" alt="Solana"></div><span>Solana</span><strong data-sim-cap>$69,420</strong><small>Target market cap</small></div><div class="peg-center"><span class="icon" data-icon="link"></span><span>SHARED<br>TARGET</span></div><div class="peg-chain"><div class="network-icon rh"><img src="/assets/robinhood.svg" alt="Robinhood Chain"></div><span>Robinhood Chain</span><strong data-sim-cap>$69,420</strong><small>Target market cap</small></div><label class="target-slider" for="cap-slider"><span>Try a market-cap target <output id="cap-output">$69,420</output></span><input type="range" id="cap-slider" min="5000" max="250000" step="10" value="69420"><span class="slider-range"><span>$5,000</span><span>$250,000</span></span></label></div><div class="peg-copy"><p class="section-eyebrow">SAME IDEA. SAME NORTH STAR.</p><h2 id="peg-heading">Two chains.<br><span class="text-accent">One shared target.</span></h2><p>The goal is to bring the two market prices closer using inventory and trading cash on both chains.</p><p class="secondary-copy">Move the target to explore the concept. The slider is illustrative. Funded launches use a trading bot with capital and trade limits; matching prices are not guaranteed.</p></div></section>
+<section class="faq wrap" id="questions"><div><p class="section-eyebrow">A LITTLE CLARITY</p><h2>Seeing double?<br>Good questions.</h2></div><div class="faq-list">
+<details><summary>Is this one token or two different projects?<span class="icon" data-icon="plus"></span></summary><p>Twice plans one name, ticker and image for two independent tokens: a direct PumpSwap pool on Solana and Pons on Robinhood Chain. Each has its own supply and market. Matching market caps is a goal, not a guarantee.</p></details>
+<details><summary>How does the market-cap peg work?<span class="icon" data-icon="plus"></span></summary><p>The planned market maker holds tokens and cash on both chains. Your capital is allocated automatically: 50% to Solana liquidity, 25% to Robinhood inventory and 12.5% to cash reserves on each chain. Twice manages this capital. Live trading is not enabled, and matching prices are not guaranteed.</p></details>
+<details><summary>Do I need a wallet on both chains?<span class="icon" data-icon="plus"></span></summary><p>Yes, the planned launch needs a Solana wallet and an EVM wallet for Robinhood Chain. You can start the draft and choose your funding amount on either chain. Connect both wallets when reviewing the plan. Connection alone does not move funds.</p></details>
+<details><summary>Can I launch a real token here today?<span class="icon" data-icon="plus"></span></summary><p>Use Launch your token to connect both wallets, review funding and launch. These are mainnet transactions, including from localhost. Pons launches first, then Twice creates the PumpSwap pool. Fees and trading losses are real; a completed mainnet test is still pending.</p></details>
+</div></section>
+</main>
+<footer class="footer footer-next">
+<div class="wrap footer-next-inner">
+<div class="footer-next-top"><a class="brand" href="#top"><img src="/assets/mascot.png?v=2" width="44" height="44" alt=""><span>twice.fun</span></a><a class="footer-back" href="#top">Back to top <span class="icon" data-icon="arrow"></span></a></div>
+<div class="footer-composition">
+<div class="footer-invitation"><p class="footer-kicker">YOUR NEXT CHAPTER, IN TWO PLACES.</p><h2>One idea.<br><span>Both worlds.</span></h2><p class="footer-invitation-copy">One setup for Solana and Robinhood Chain.<br> A little more room for your next big thing.</p><button class="btn btn-primary btn-lg" data-action="create">Let's launch it twice <span class="icon" data-icon="upRight"></span></button></div>
+<div class="footer-duet"><div class="footer-duet-networks"><span><img src="/assets/solana.svg" alt="">Solana</span><span><img src="/assets/robinhood.svg" alt="">Robinhood Chain</span></div><span class="footer-duet-two" aria-hidden="true">2</span><img class="footer-duet-mascot" src="/assets/mascot.png?v=2" alt="The blue and green twice.fun mascot" width="330" height="330" loading="lazy"><div class="footer-duet-caption"><span>BETTER, TOGETHER.</span><span class="icon" data-icon="link"></span></div></div>
+</div>
+<div class="footer-next-bottom"><span>© 2026 twice.fun</span><nav class="footer-next-links" aria-label="Footer navigation"><a href="#explore">Explore launches</a><a href="#how-it-works">How it works</a><a href="#questions">Good questions</a></nav><span class="footer-signoff">One token. Twice the possibilities.</span></div>
+</div></footer>
+<dialog id="main-dialog" class="dialog" aria-labelledby="dialog-title"></dialog><div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="/app.js?v=4" defer></script><script src="/launch-client.js?v=2" defer></script><script src="/connection-flow.js?v=1" defer></script><script src="/deploy-design.js?v=1" defer></script><script type="module" src="/scene.js?v=2"></script>
+</body></html>
